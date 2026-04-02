@@ -4,8 +4,8 @@ export default function HeroSection() {
       <div className="max-w-4xl mx-auto">
         {/* Co-Founder Badge */}
         <div className="flex items-center justify-center gap-2 mb-8">
-          <span className="text-gray-700 text-sm font-medium">Co-Founder of</span>
-          <span className="text-blue-500 font-bold text-sm">📘 Sprint</span>
+          <span className="text-gray-700 text-sm font-medium">Helping Brands Build Online Presence</span>
+          
         </div>
 
         {/* Main Heading */}
