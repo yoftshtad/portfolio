@@ -49,7 +49,7 @@ const projects = [
     title: 'Stille - personal project',
     description:
       'Stille is a mindful productivity tool designed for those seeking a balanced approach to work and life.',
-    href: 'https://productivity-sandy-xi.vercel.app/',
+    href: 'https://stille-productivity.vercel.app/',
     tags: [
       { label: 'UI Design', color: '#7C3AED' },
       { label: 'Frontend Development', color: '#EC4899' },
