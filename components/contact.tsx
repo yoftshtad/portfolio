@@ -59,7 +59,7 @@ export default function ContactPage() {
   }
 
   return (
-    <main className="bg-gray-100 py-20 px-4">
+    <main id="contact" className="bg-gray-100 py-20 px-4">
       <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden ring-1 ring-black/5">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8 md:p-12">
           <div className="space-y-8">

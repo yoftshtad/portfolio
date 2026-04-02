@@ -11,17 +11,17 @@ export default function Navbar(){
         <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center py-6">
             <div className="flex items-center gap-6 bg-white/80 backdrop-blur-md border border-gray-200 rounded-full px-4 py-2 shadow-sm">
             <div className='flex gap-5 items-center'>
-                <Link href='/' className="border-r border-amber-950 pr-3"><FiHome /></Link>
-                <Link href='/' className="">Projects</Link>
-                <Link href='/sign-in' className="">Experience</Link>
-                <Link href='/sign-up' className="">Contact</Link>
-                
-                
+                <Link href='/' className="border-r border-amber-950 pr-3 text-gray-600 hover:text-emerald-600 transition-colors"><FiHome /></Link>
+                <Link href='/#projects' className="text-gray-700 hover:text-emerald-600 transition-colors">Projects</Link>
+                <Link href='/#skills' className="text-gray-700 hover:text-emerald-600 transition-colors">Experience</Link>
+                <Link href='/#contact' className="text-gray-700 hover:text-emerald-600 transition-colors">Contact</Link>
             </div>
             <div>
                 <Button 
                     text='Hire Now'
-                    href=''
+                    href='https://t.me/Yoftsh_ui'
+                    target="_blank"
+                    rel="noopener noreferrer"
                     />
                     
             </div>

@@ -5,6 +5,8 @@ import Image from "next/image";
 interface ButtonProps {
   text: string;
   href?: string;           // '?' means optional. If provided, it acts like a link.
+  target?: string;         // support _blank if needed
+  rel?: string;            // support noopener/noreferrer
   bgColor?: string;        // e.g., "bg-zinc-900" or "bg-white"
   textColor?: string;      // e.g., "text-white" or "text-black"
   iconUrl?: string;        // Optional image link for an icon
@@ -14,6 +16,8 @@ interface ButtonProps {
 export default function Button({
   text,
   href,
+  target,
+  rel,
   bgColor = "bg-zinc-900", // Default color is dark
   textColor = "text-white", // Default text is white
   iconUrl,
@@ -36,7 +40,7 @@ export default function Button({
   // 4. If we passed an "href", return a Next.js Link
   if (href) {
     return (
-      <Link href={href} className={baseStyles}>
+      <Link href={href} className={baseStyles} target={target} rel={rel}>
         {innerContent}
       </Link>
     );

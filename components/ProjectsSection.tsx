@@ -5,6 +5,7 @@ interface Project {
   image: string;
   title: string;
   description: string;
+  href: string;
   tags: Array<{
     label: string;
     color: string;
@@ -17,7 +18,7 @@ interface ProjectsSectionProps {
 
 export default function ProjectsSection({ projects }: ProjectsSectionProps) {
   return (
-    <section className="bg-gray-100 py-20 px-4">
+    <section id="projects" className="bg-gray-100 py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white rounded-lg p-12">
           {/* Section Header */}
@@ -38,6 +39,7 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
                 image={project.image}
                 title={project.title}
                 description={project.description}
+                href={project.href}
                 tags={project.tags}
               />
             ))}

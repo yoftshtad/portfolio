@@ -75,7 +75,7 @@ export default function SkillsSection() {
   ];
 
   return (
-    <section className="min-h-screen bg-gray-50 py-20 px-6">
+    <section id="skills" className="min-h-screen bg-gray-50 py-20 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Header Section with React Icon Sparkles */}
         <div className="flex items-center gap-3 mb-12">

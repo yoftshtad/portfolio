@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 interface ProjectCardProps {
   image: string;
   title: string;
@@ -6,6 +8,7 @@ interface ProjectCardProps {
     label: string;
     color: string;
   }>;
+  href?: string;
 }
 
 export default function ProjectCard({
@@ -13,17 +16,18 @@ export default function ProjectCard({
   title,
   description,
   tags,
+  href = '/',
 }: ProjectCardProps) {
   return (
     <div className="flex flex-col">
       {/* Project Image */}
-      <div className="mb-6 rounded-lg overflow-hidden h-64 md:h-72">
+      <Link href={href} className="block mb-6 rounded-lg overflow-hidden h-64 md:h-72">
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transition-transform duration-300 ease-out hover:scale-105"
         />
-      </div>
+      </Link>
 
       {/* Project Title */}
       <h3 className="text-xl font-bold text-black mb-3">{title}</h3>

@@ -10,7 +10,8 @@ const projects = [
     image: "/lux.png",
     title: 'Lux Transporter',
     description:
-      'Lux is a pioneering electric vehicle and clean energy company founded by Elon Musk. It builds high-performance electric cars...',
+      'Luxtransporter is the ultimate destination for bespoke luxury travel experiences From private aviation to exclusive yacht ...',
+    href: 'https://www.luxtransporter.com/',
     tags: [
       { label: 'UI Design', color: '#7C3AED' },
       { label: 'Frontend Development', color: '#EC4899' },
@@ -20,9 +21,10 @@ const projects = [
   {
     id: '2',
     image: '/enmamar.png',
-    title: 'Grok Dashboard',
+    title: 'Enamamar - Online Course Platform',
     description:
-      'Grok is a generative AI chatbot developed by Elon Musk&apos;s company, xAI. Launched in November 2023, Grok is designed to be a...',
+      'Enmamar is designed to deliver structured, accessible learning experiences across various subjects.',
+    href: 'https://enmamar.com/',
     tags: [
       { label: 'Front/back end', color: '#06B6D4' },
       { label: '2024', color: '#F97316' },
@@ -33,7 +35,8 @@ const projects = [
     image: "/church.png",
     title: 'Church Donation Website',
     description:
-      'Lux is a pioneering electric vehicle and clean energy company founded by Elon Musk. It builds high-performance electric cars...',
+      'Debre kidusan psx is a church based website tailored to encourag fellow christians to contribute and be part of the community...',
+    href: 'https://debrekidusanpdx.com/',
     tags: [
       { label: 'UI Design', color: '#7C3AED' },
       { label: 'Frontend Development', color: '#EC4899' },
@@ -42,10 +45,11 @@ const projects = [
   },
   {
     id: '4',
-    image: "/lux.png",
-    title: 'Lux Transporter',
+    image: "/productivity.png",
+    title: 'Stille - personal project',
     description:
-      'Lux is a pioneering electric vehicle and clean energy company founded by Elon Musk. It builds high-performance electric cars...',
+      'Stille is a mindful productivity tool designed for those seeking a balanced approach to work and life.',
+    href: 'https://productivity-sandy-xi.vercel.app/',
     tags: [
       { label: 'UI Design', color: '#7C3AED' },
       { label: 'Frontend Development', color: '#EC4899' },
